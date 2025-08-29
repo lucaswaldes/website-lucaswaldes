@@ -15,7 +15,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   app: {
-    baseURL: '/nome-do-repositorio/',
+    baseURL: '/website-lucaswaldes/',
 
 
     head: {
