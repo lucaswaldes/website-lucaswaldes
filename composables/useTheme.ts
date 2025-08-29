@@ -1,11 +1,11 @@
 export const useTheme = () => {
-  const current = ref<'light' | 'dark'>()
+  const current = ref<'dark' | 'light'>()
 
-  const getSavedTheme = (): 'light' | 'dark' => {
+  const getSavedTheme = (): 'dark' | 'light' => {
     if (process.client) {
-      return (localStorage.getItem('theme') as 'light' | 'dark') || 'light'
+      return (localStorage.getItem('theme') as 'dark' | 'light') || 'dark'
     }
-    return 'light'
+    return 'dark'
   }
 
   const applyTheme = () => {
@@ -22,12 +22,12 @@ export const useTheme = () => {
   const toggleTheme = () => {
     if (!process.client) return
 
-    const newTheme = current.value === 'dark' ? 'light' : 'dark'
+    const newTheme = current.value === 'light' ? 'dark' : 'light'
     current.value = newTheme
     localStorage.setItem('theme', newTheme)
 
     const html = document.documentElement
-    html.classList.remove('light', 'dark')
+    html.classList.remove('dark', 'light')
     html.classList.add(newTheme)
   }
 

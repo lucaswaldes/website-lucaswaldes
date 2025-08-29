@@ -25,10 +25,10 @@ useHead({
           try {
             const theme = localStorage.getItem('theme')
             const language = localStorage.getItem('language')
-            if (theme === 'dark') {
-              document.documentElement.classList.add('dark')
+            if (theme === 'light') {
+              document.documentElement.classList.add('light')
             } else {
-              document.documentElement.classList.remove('dark')
+              document.documentElement.classList.remove('light')
             }
             if (language === 'english') {
               document.documentElement.classList.add('english')
