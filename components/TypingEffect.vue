@@ -9,7 +9,7 @@ import { ref, onMounted } from 'vue'
 // ]
 const phrases = [
   ["Desenvolvedor ", "Full Stack"],
-  ["Analista", " de Cibersegurança"]
+  ["Entusiasta", " em Cibersegurança"]
 ]
 
 const displayedText = ref("")

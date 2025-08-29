@@ -1,1 +1,0 @@
-import{q as t,f as a,c as s,t as r,j as n,o as c}from"./BFo0oMe3.js";const _={__name:"[id]",setup(u){const e=t(),o=a(()=>e.params.id);return(i,m)=>(c(),s("div",null," Você esta no video numero "+r(n(o)),1))}};export{_ as default};

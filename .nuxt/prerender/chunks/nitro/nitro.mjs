@@ -639,8 +639,8 @@ function _expandFromEnv(value) {
 
 const _inlineRuntimeConfig = {
   "app": {
-    "baseURL": "/website-lucaswaldes/",
-    "buildId": "9ec23299-8ab5-4bcd-8c04-0402b430aa67",
+    "baseURL": "/",
+    "buildId": "41a2a71a-2ff0-40bc-8885-4f195b481974",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -898,7 +898,7 @@ function defaultHandler(error, event, opts) {
   const statusMessage = error.statusMessage || "Server Error";
   const url = getRequestURL(event, { xForwardedHost: true, xForwardedProto: true });
   if (statusCode === 404) {
-    const baseURL = "/website-lucaswaldes/";
+    const baseURL = "/";
     if (/^\/[^/]/.test(baseURL) && !url.pathname.startsWith(baseURL)) {
       const redirectTo = `${baseURL}${url.pathname.slice(1)}${url.search}`;
       return {

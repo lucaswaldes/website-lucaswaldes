@@ -14,16 +14,14 @@ export default defineNuxtPlugin((nuxtApp) => {
           messages: {
                pt: {
                     welcome: 'Olá, eu sou',
-                    descriptionWelcome: 'Atuo na interseção entre desenvolvimento e segurança digital. Tenho experiência na criação de APIs, sites e bots automatizados, sempre com foco em performance e proteção de dados. Meu objetivo é transformar sistemas em soluções ágeis, seguras e escaláveis, reduzindo vulnerabilidades e aumentando a confiabilidade.',
+                    descriptionWelcome: 'Desenvolvedor <strong>fullstack</strong> e entusiasta de <strong>cibersegurança</strong>. Crio sites, APIs e bots automatizados com <strong>foco em performance e confiabilidade</strong>, enquanto aprofundo meus conhecimentos em segurança digital para construir soluções cada vez mais seguras.',
                     buttonWelcome: 'Baixar currículo',
                     about: 'Sobre mim',
-                    aboutDescription: `Sou Lucas Waldes, desenvolvedor fullstack com foco em soluções web, automações e segurança da informação. Minha jornada começou no Instituto PROA, onde aprendi lógica de programação e boas práticas essenciais para o desenvolvimento de software confiável.
+                    aboutDescription: `Sou <strong>Lucas Waldes</strong>, desenvolvedor fullstack focado em soluções web, automações e segurança da informação. <strong>Minha jornada começou no Instituto PROA</strong>, onde aprendi lógica de programação e boas práticas essenciais para criar softwares confiáveis.
 <br><br>
-Atualmente, curso Análise e Desenvolvimento de Sistemas na FATEC Zona Leste, aprofundando meus conhecimentos em engenharia de software, banco de dados, arquitetura de aplicações e fundamentos de cibersegurança.
+Atualmente curso <strong>Análise e Desenvolvimento de Sistemas</strong> na FATEC Zona Leste, desenvolvendo habilidades técnicas e de gestão para criação e manutenção de sistemas, automações e soluções digitais.
 <br><br>
-Tenho experiência em desenvolvimento de sites responsivos, APIs RESTful e bots personalizados, usando tecnologias como Python, Django, JavaScript, Angular e FastAPI — sempre com atenção à performance, escalabilidade e mitigação de riscos.
-<br><br>
-Sou movido por desafios e acredito que segurança e inovação devem caminhar juntas, criando soluções que otimizam processos e protegem dados de pessoas e empresas.`,
+Tenho experiência no desenvolvimento de sites responsivos, APIs RESTful e bots personalizados em Node.js, e <strong>conhecimento em frameworks</strong> backend como Django, Flask e FastAPI e frontend como Angular, React e Nuxt. Sempre busco entregar soluções eficientes, escaláveis e seguras, unindo inovação e proteção de dados.`,
                     service: 'Serviços que eu ofereço',
                     serviceDescription: 'Transformo ideias em soluções digitais funcionais e escaláveis.',
                     servicesList: {
@@ -44,7 +42,7 @@ Sou movido por desafios e acredito que segurança e inovação devem caminhar ju
                               ]
                          },
                          bots: {
-                              title: 'Bots Inteligentes',
+                              title: 'Bots<br>Inteligentes',
                               items: [
                                    'Bots exclusivos para Discord e WhatsApp',
                                    'Comandos personalizados e automações',
@@ -64,8 +62,8 @@ Sou movido por desafios e acredito que segurança e inovação devem caminhar ju
                     educationTitle: "Educacaçao",
                     emailButton: "Enviar e-mail",
                     educationList: [
-                         { title: 'Técnico em Desenvolvimento de Sistemas', institution: 'Instituto Proa & Senac', date: 'fev 2022 - jul 2022', description: 'Concluí o ensino médio com foco em ciências exatas.' },
-                         { title: 'Análise e Desenvolvimento de Sistemas', institution: 'FATEC Zona Leste', date: 'fev 2024 - Presente', description: 'Graduação em andamento, foco em backend e automações.' }
+                         { title: 'Técnico em Desenvolvimento de Sistemas', institution: 'Instituto Proa & Senac', date: 'fev 2022 - jul 2022', description: 'Curso técnico focado em desenvolvimento web, lógica de programação e boas práticas de software.' },
+                         { title: 'Análise e Desenvolvimento de Sistemas', institution: 'FATEC Zona Leste', date: 'fev 2024 - Presente', description: 'Graduação em andamento, desenvolvendo habilidades técnicas e de gestão para criação e manutenção de sistemas, automações e soluções digitais.' }
                     ],
                     experienceTitle: "Experiência",
                     experienceList: [
@@ -117,16 +115,15 @@ Sou movido por desafios e acredito que segurança e inovação devem caminhar ju
                },
                en: {
                     welcome: 'Hello, I am',
-                    descriptionWelcome: 'I work at the intersection of development and digital security. I have experience creating APIs, websites, and automated bots, always focusing on performance and data protection. My goal is to turn systems into agile, secure, and scalable solutions, reducing vulnerabilities and increasing reliability.',
+                    descriptionWelcome: 'Fullstack <strong>developer</strong> and <strong>cybersecurity enthusiast</strong>. I build websites, APIs, and automated bots with a <strong>focus on performance and reliability</strong>, while deepening my knowledge in digital security to create increasingly secure solutions.',
                     buttonWelcome: 'Download resume',
                     about: 'About me',
-                    aboutDescription: `I’m Lucas Waldes, a fullstack developer focused on web solutions, automation, and information security. My journey began at Instituto PROA, where I learned programming logic and essential best practices for building reliable software.
+                    aboutDescription: `I'm <strong>Lucas Waldes</strong>, a fullstack developer focused on web solutions, automations, and information security. <strong>My journey began at Instituto PROA</strong>, where I learned programming logic and essential best practices to create reliable software.
 <br><br>
-I am currently studying Systems Analysis and Development at FATEC Zona Leste, deepening my knowledge in software engineering, databases, application architecture, and cybersecurity fundamentals.
+I am currently pursuing a degree in <strong>Systems Analysis and Development</strong> at FATEC Zona Leste, developing technical and management skills for creating and maintaining systems, automations, and digital solutions.
 <br><br>
-I have experience in developing responsive websites, RESTful APIs, and custom bots using technologies like Python, Django, JavaScript, Angular, and FastAPI — always with attention to performance, scalability, and risk mitigation.
-<br><br>
-I am driven by challenges and believe that security and innovation should go hand in hand, creating solutions that optimize processes and protect data for both individuals and businesses.`,
+I have experience in developing responsive websites, RESTful APIs, and custom bots in Node.js, and <strong>knowledge of backend frameworks</strong> such as Django, Flask, and FastAPI, <strong>as well as frontend frameworks</strong> like Angular, React, and Nuxt. I always strive to deliver efficient, scalable, and secure solutions, combining innovation with data protection.
+`,
                     service: 'Services I Offer',
                     serviceDescription: 'I turn ideas into functional and scalable digital solutions.',
                     servicesList: {
@@ -147,7 +144,7 @@ I am driven by challenges and believe that security and innovation should go han
                               ]
                          },
                          bots: {
-                              title: 'Smart Bots',
+                              title: 'Smart<br>Bots',
                               items: [
                                    'Exclusive bots for Discord and WhatsApp',
                                    'Custom commands and automations',
@@ -167,8 +164,8 @@ I am driven by challenges and believe that security and innovation should go han
                     educationTitle: "Education",
                     emailButton: "Send mail",
                     educationList: [
-                         { title: 'Technical Degree in Systems Development', institution: 'Instituto Proa & Senac', date: 'Feb 2022 - Jul 2022', description: 'Completed high school with a focus on exact sciences.' },
-                         { title: 'Analysis and Systems Development', institution: 'FATEC Zona Leste', date: 'Feb 2024 - Present', description: 'Ongoing undergraduate degree, focused on backend and automations.' }
+                         { title: 'Technical Degree in Systems Development', institution: 'Instituto Proa & Senac', date: 'Feb 2022 - Jul 2022', description: 'Technical course focused on web development, programming logic, and software best practices.' },
+                         { title: 'Analysis and Systems Development', institution: 'FATEC Zona Leste', date: 'Feb 2024 - Present', description: 'Currently pursuing a degree, developing technical and management skills for creating and maintaining systems, automations, and digital solutions.' }
                     ],
                     experienceTitle: "Experience",
                     experienceList: [

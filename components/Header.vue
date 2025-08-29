@@ -8,7 +8,7 @@ const { language, toggleLanguage } = useLanguage()
 
 // Scroll
 const scrolled = ref(false)
-const handleScroll = () => scrolled.value = window.scrollY > 50
+const handleScroll = () => scrolled.value = window.scrollY > 30
 
 // Menu mobile
 const menuOpen = ref(false)
@@ -25,6 +25,7 @@ onMounted(() => {
   window.addEventListener('resize', () => {
     width.value = window.innerWidth
   })
+    window.addEventListener('scroll', handleScroll)
 })
 
 onUnmounted(() => {
@@ -102,10 +103,10 @@ const { tm } = useI18n()
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 0 2rem;
+  // padding: 0 2rem;
   z-index: 999;
   transition: all 0.2s ease-in-out;
-  background-color: var(--bg-secondary-color);
+  // background-color: var(--bg-secondary-color);
 
   svg {
     fill: var(--text-color);
@@ -115,6 +116,8 @@ const { tm } = useI18n()
     height: 70px;
     border-bottom: 1px solid gray;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background-color: var(--bg-secondary-color);
+
   }
 
   span {
@@ -123,6 +126,7 @@ const { tm } = useI18n()
     color: var(--primary-color);
     font-size: 32px !important;
     max-width: 180px;
+    width: 170px;
   }
 
   ul {
@@ -130,6 +134,8 @@ const { tm } = useI18n()
     display: flex;
     gap: 35px;
     align-items: center;
+    width: 410px;
+    justify-content: center;
 
     li a {
       text-decoration: none;
@@ -140,7 +146,8 @@ const { tm } = useI18n()
     display: flex;
     align-items: center;
     gap: 20px;
-
+    width: 170px;
+    justify-content: space-between;
     .languages {
         display: flex;
         gap: 10px;
@@ -162,6 +169,10 @@ const { tm } = useI18n()
   background: var(--bg-secondary-color);
   padding: 1rem 0;
   z-index: 998;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 
   ul {
     display: flex;
