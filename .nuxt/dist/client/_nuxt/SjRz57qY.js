@@ -1,0 +1,1 @@
+import{_ as r}from"./CUf0OVQI.js";import{_ as s,c as a,o as _,b as d,x as i,d as t,w as l}from"./DYEgGD5q.js";const c={};function f(e,o){const n=r;return _(),a("div",null,[d(n,{to:"/"},{default:l(()=>o[0]||(o[0]=[t("Voltar")])),_:1,__:[0]}),i(e.$slots,"default"),o[1]||(o[1]=t(" Rodapé de Exibição "))])}const p=s(c,[["render",f]]);export{p as default};

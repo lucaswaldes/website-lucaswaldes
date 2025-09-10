@@ -42,7 +42,7 @@ Tenho experiência no desenvolvimento de sites responsivos, APIs RESTful e bots 
                               ]
                          },
                          bots: {
-                              title: 'Bots<br>Inteligentes',
+                              title: 'Bots Personalizados',
                               items: [
                                    'Bots exclusivos para Discord e WhatsApp',
                                    'Comandos personalizados e automações',
@@ -85,7 +85,7 @@ Tenho experiência no desenvolvimento de sites responsivos, APIs RESTful e bots 
                               img: araujoImg,
                               alt: 'Henrique',
                               text: 'Lucas é um profissional de excelência, sempre entregando resultados dentro do prazo, oferecendo suporte completo após a entrega e mantendo um padrão de qualidade acima do mercado, pronto para solucionar qualquer desafio.',
-                              author: 'Thiago, CTO Catskillet',
+                              author: '',
                               align: 'right'
                          },
                          // {
@@ -144,7 +144,7 @@ I have experience in developing responsive websites, RESTful APIs, and custom bo
                               ]
                          },
                          bots: {
-                              title: 'Smart<br>Bots',
+                              title: 'Customized Bots',
                               items: [
                                    'Exclusive bots for Discord and WhatsApp',
                                    'Custom commands and automations',
@@ -164,47 +164,53 @@ I have experience in developing responsive websites, RESTful APIs, and custom bo
                     educationTitle: "Education",
                     emailButton: "Send mail",
                     educationList: [
-                         { title: 'Technical Degree in Web Development', institution: 'Instituto Proa & Senac', date: 'Feb 2022 - Jul 2022', description: 'Technical course focused on web development, programming logic, and software best practices.' },
-                         { title: 'Analysis and Systems Development', institution: 'FATEC Zona Leste', date: 'Feb 2024 - Present', description: 'Currently pursuing a degree, developing technical and management skills for creating and maintaining systems, automations, and digital solutions.' }
+                         { 
+                              title: 'Web Development Technician', 
+                              institution: 'Instituto Proa & Senac', 
+                              date: 'Feb 2022 - Jul 2022', 
+                              description: 'Technical course focused on web development, programming logic, and software best practices.' 
+                         },
+                         { 
+                              title: 'Systems Analysis and Development', 
+                              institution: 'FATEC Zona Leste', 
+                              date: 'Feb 2024 - Present', 
+                              description: 'Ongoing undergraduate degree, developing technical and management skills for creating and maintaining systems, automations, and digital solutions.' 
+                         }
                     ],
                     experienceTitle: "Experience",
                     experienceList: [
-                         { title: 'Backend Developer', company: 'Hyper Scripts', date: 'Mar 2020 - Present', description: 'Developing bots, web systems, and API integrations.' },
-                         { title: 'Backend Developer', company: 'Warp Store', date: 'Aug 2024 - Apr 2025', description: 'Developing bots, web systems, and API integrations.' },
-                         { title: 'Fullstack Development', company: 'Catskillet', date: 'Jan 2023 - Apr 2025', description: 'Website creation and internal systems maintenance.' },
+                         { 
+                              title: 'Backend Developer', 
+                              company: 'Hyper Scripts', 
+                              date: 'Mar 2020 - Present', 
+                              description: 'Development of custom bots for the Discord platform, focusing on process automation, task optimization, system integration, and personalized support.' 
+                         },
+                         //{ title: 'Backend Developer', company: 'Warp Store', date: 'Aug 2024 - Apr 2025', description: 'Developing bots, web systems, and API integrations.' },
+                         { 
+                              title: 'Fullstack Development', 
+                              company: 'Catskillet', 
+                              date: 'Jan 2023 - Apr 2025', 
+                              description: 'Full-stack web application development, creating internal systems and client platforms, collaborating in agile sprints, and ensuring efficient support, focusing on process automation and quality delivery.' 
+                         },
                     ],
                     feedbackTitle: "What they say about my work",
                     feedbackDescription: "",
                     feedbackList:
                     [
                          {
-                              "text": "Lucas really knows his stuff. I even thought my project would be a mess, but he made everything work perfectly.",
-                              "author": "Neto",
-                              "align": "left",
-                              "img": netoImg,
-                              "alt": "João"
+                              img: netoImg,
+                              alt: 'Neto',
+                              text: 'Lucas is a highly skilled professional, delivering on time, providing full support after delivery, and maintaining a standard above the market, always ready to solve any problem.',
+                              author: 'Neto, CEO Hyper Scripts',
+                              align: 'left'
                          },
                          {
-                              "text": "Working with him is easy, he always explains what he's doing. No fuss.",
-                              "author": "Henrique",
-                              "align": "right",
-                              "img": araujoImg,
-                              "alt": "Maria"
+                              img: araujoImg,
+                              alt: 'Henrique',
+                              text: 'Lucas is an excellent professional, consistently delivering results on time, offering complete support after delivery, and upholding a quality standard above the market, ready to tackle any challenge.',
+                              author: '',
+                              align: 'right'
                          },
-                         {
-                              "text": "He not only delivers what you ask for, he improves what you didn’t even know could be better.",
-                              "author": "Maicon",
-                              "align": "left",
-                              "img": maiconImg,
-                              "alt": "Carlos"
-                         },
-                         {
-                              "text": "Lucas can take complicated ideas and turn them into something simple to use. It was great working with him.",
-                              "author": "Hauck",
-                              "align": "right",
-                              "img": fileImg,
-                              "alt": "Carlos"
-                         }
                     ],
                     fullstackDeveloper: "FUllstack Developer",
                     cybersecurity: "Cybersecurity",
