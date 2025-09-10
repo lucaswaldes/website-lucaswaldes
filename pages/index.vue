@@ -57,7 +57,7 @@
                 
             </div>
             <div class="right">
-                <img src="/img/me.png" alt="">
+                <img src="/img/lucas.png" alt="aaa">
             </div>
             
             <a href="#about" class="scroll-indicator">
@@ -70,7 +70,7 @@
             <div class="content">
                 <div class="left">
                     
-                    <img src="/img/hacker4.png" alt="">
+                    <img src="/img/pc.png" alt="">
                     
                 </div>
                 <div class="right">
@@ -240,7 +240,7 @@
         <div
         v-for="(fb, index) in feedbackList"
         :key="index"
-        :class="['feedback-block', fb.align]"
+        :class="['feedback-block']"
         >
         <img :src="fb.img" :alt="fb.alt" class="avatar" />
         <div class="bubble">
@@ -462,10 +462,17 @@ tm('feedbackList') as Feedback[]
         justify-content: center;
         padding: 40px;
         img {
-            width: 40vw;
-            max-width: 400px;
+            width: 30vw;
+            max-width: 500px;
             align-self: self-end;
             border-radius: 50%;
+            opacity: .8;
+            transition: .2s all ease-in;
+
+            &:hover {
+                transform: scale(1.01);
+                opacity: 1;
+            }
         }
     }
 }
@@ -524,6 +531,13 @@ tm('feedbackList') as Feedback[]
                 img {
                     width: 100%;
                     border-radius: 15px;
+                    opacity: 0.8;
+                    transition: .2s all ease-in-out;
+
+                    &:hover {
+                        opacity: 1;
+                        transform: scale(1.01);
+                    }
                 }
                 
             }
@@ -872,6 +886,7 @@ tm('feedbackList') as Feedback[]
     padding-top: 80px;
     // height: 100vh;
     justify-content: center;
+    gap: 40px;
     h3 {
         text-align: center;
         //     font-size: 2rem;
@@ -973,7 +988,7 @@ tm('feedbackList') as Feedback[]
     justify-content: center;
 
     
-    height: 80vh;
+    //height: 80vh;
 
     
     @media (max-width: 768px) {
@@ -1006,6 +1021,8 @@ tm('feedbackList') as Feedback[]
     display: flex;
     align-items: flex-start;
     gap: 15px;
+    // align-items: center;
+    justify-content: center;
 }
 
 .feedback-block.left {
@@ -1061,6 +1078,7 @@ tm('feedbackList') as Feedback[]
 .bubble p {
     margin: 0;
     font-size: 18px;
+    text-align: left;
 }
 
 .bubble span {

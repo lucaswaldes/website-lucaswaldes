@@ -135,7 +135,7 @@ const { tm } = useI18n()
     gap: 35px;
     align-items: center;
     width: 410px;
-    justify-content: center;
+    justify-content: centern;
 
     li a {
       text-decoration: none;

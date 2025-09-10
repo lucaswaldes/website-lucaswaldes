@@ -1,9 +1,9 @@
 import { createI18n } from 'vue-i18n'
 import { defineNuxtPlugin } from '#app'
-const netoImg = '/img/neto.jpg'
+const netoImg = '/img/user.png'
 const maiconImg = '/img/maicon.jpg'
 const fileImg = '/img/file.jpeg'
-const araujoImg = '/img/araujo.jpg'
+const araujoImg = '/img/user.png'
 
 export default defineNuxtPlugin((nuxtApp) => {
      
@@ -62,14 +62,14 @@ Tenho experiência no desenvolvimento de sites responsivos, APIs RESTful e bots 
                     educationTitle: "Educacaçao",
                     emailButton: "Enviar e-mail",
                     educationList: [
-                         { title: 'Técnico em Desenvolvimento de Sistemas', institution: 'Instituto Proa & Senac', date: 'fev 2022 - jul 2022', description: 'Curso técnico focado em desenvolvimento web, lógica de programação e boas práticas de software.' },
+                         { title: 'Técnico em Desenvolvimento Web', institution: 'Instituto Proa & Senac', date: 'fev 2022 - jul 2022', description: 'Curso técnico focado em desenvolvimento web, lógica de programação e boas práticas de software.' },
                          { title: 'Análise e Desenvolvimento de Sistemas', institution: 'FATEC Zona Leste', date: 'fev 2024 - Presente', description: 'Graduação em andamento, desenvolvendo habilidades técnicas e de gestão para criação e manutenção de sistemas, automações e soluções digitais.' }
                     ],
                     experienceTitle: "Experiência",
                     experienceList: [
-                         { title: 'Desenvolvedor Backend', company: 'Hyper Scripts', date: 'mar 2020 - Presente', description: 'Desenvolvendo bots, sistemas web e integrações de API.' },
-                         { title: 'Desenvolvedor Backend', company: 'Warp Store', date: 'ago 2024 - abr 2025', description: 'Desenvolvendo bots, sistemas web e integrações de API.' },
-                         { title: 'Desenvolvimento Fullstack', company: 'Catskillet', date: 'jan 2023 - abr 2025', description: 'Criação de sites e manutenção de sistemas internos.' },
+                         { title: 'Desenvolvedor Backend', company: 'Hyper Scripts', date: 'mar 2020 - Presente', description: 'Desenvolvimento de bots personalizados para a plataforma Discord, focados em automação de processos, otimização de tarefas, integração com sistemas e suporte personalizado.' },
+                         //{ title: 'Desenvolvedor Backend', company: 'Warp Store', date: 'ago 2024 - abr 2025', description: 'Desenvolvendo bots, sistemas web e integrações de API.' },
+                         { title: 'Desenvolvimento Fullstack', company: 'Catskillet', date: 'jan 2023 - abr 2025', description: 'Desenvolvimento full-stack de aplicações web, criando sistemas internos e plataformas para clientes, colaborando em sprints ágeis e garantindo suporte eficiente, com foco em automação de processos e entregas de qualidade.' },
                     ],
                     feedbackTitle: "O que dizem sobre meu trabalho",
                     feedbackDescription: "",
@@ -77,31 +77,31 @@ Tenho experiência no desenvolvimento de sites responsivos, APIs RESTful e bots 
                          {
                               img: netoImg,
                               alt: 'Neto',
-                              text: 'O Lucas manja mesmo das coisas. Até achei que meu projeto ia virar bagunça, mas ele deixou tudo funcionando certinho.',
-                              author: 'Neto',
+                              text: 'Lucas e um profissional de extrema qualidade, com entrega dentro do prazo, assistência total após a entrega e padrão superior ao mercado, sempre se prontificando a resolver qualquer problema.',
+                              author: 'Neto, CEO Hyper Scripts',
                               align: 'left'
                          },
                          {
                               img: araujoImg,
                               alt: 'Henrique',
-                              text: 'Trabalhar com ele é tranquilo, sempre explicando o que tá fazendo. Sem enrolação.',
-                              author: 'Henrique',
+                              text: 'Lucas é um profissional de excelência, sempre entregando resultados dentro do prazo, oferecendo suporte completo após a entrega e mantendo um padrão de qualidade acima do mercado, pronto para solucionar qualquer desafio.',
+                              author: 'Thiago, CTO Catskillet',
                               align: 'right'
                          },
-                         {
-                              img: maiconImg,
-                              alt: 'Maicon',
-                              text: 'Ele não só entrega o que você pede, ele melhora o que você nem sabia que dava pra melhorar.',
-                              author: 'Maicon',
-                              align: 'left'
-                         },
-                         {
-                              img: fileImg,
-                              alt: 'Hauck',
-                              text: 'Lucas consegue pegar ideias complicadas e transformar em algo simples de usar. Foi muito bom trabalhar com ele.',
-                              author: 'Hauck',
-                              align: 'right'
-                         }
+                         // {
+                         //      img: maiconImg,
+                         //      alt: 'Maicon',
+                         //      text: 'Ele não só entrega o que você pede, ele melhora o que você nem sabia que dava pra melhorar.',
+                         //      author: 'Maicon',
+                         //      align: 'left'
+                         // },
+                         // {
+                         //      img: fileImg,
+                         //      alt: 'Hauck',
+                         //      text: 'Lucas consegue pegar ideias complicadas e transformar em algo simples de usar. Foi muito bom trabalhar com ele.',
+                         //      author: 'Hauck',
+                         //      align: 'right'
+                         // }
                     ],
                     fullstackDeveloper: "Desenvolvedor Fullstack",
                     cybersecurity: "Cibersegurança",
@@ -164,7 +164,7 @@ I have experience in developing responsive websites, RESTful APIs, and custom bo
                     educationTitle: "Education",
                     emailButton: "Send mail",
                     educationList: [
-                         { title: 'Technical Degree in Systems Development', institution: 'Instituto Proa & Senac', date: 'Feb 2022 - Jul 2022', description: 'Technical course focused on web development, programming logic, and software best practices.' },
+                         { title: 'Technical Degree in Web Development', institution: 'Instituto Proa & Senac', date: 'Feb 2022 - Jul 2022', description: 'Technical course focused on web development, programming logic, and software best practices.' },
                          { title: 'Analysis and Systems Development', institution: 'FATEC Zona Leste', date: 'Feb 2024 - Present', description: 'Currently pursuing a degree, developing technical and management skills for creating and maintaining systems, automations, and digital solutions.' }
                     ],
                     experienceTitle: "Experience",

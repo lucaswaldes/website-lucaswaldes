@@ -1,10 +1,10 @@
 const client_manifest = {
-  "_CZdm6RQe.js": {
+  "_urr0jYct.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CZdm6RQe.js",
+    "file": "urr0jYct.js",
     "name": "nuxt-link",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
@@ -15,7 +15,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Dua7Wom5.js",
+    "file": "DCpvBHZl.js",
     "name": "default",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
@@ -28,12 +28,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "5KorxGdP.js",
+    "file": "DXbKHxo2.js",
     "name": "exibicao",
     "src": "layouts/exibicao.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_CZdm6RQe.js",
+      "_urr0jYct.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
@@ -42,7 +42,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DzRJRw81.js",
+    "file": "W8KmSWmW.js",
     "name": "video",
     "src": "middleware/video.ts",
     "isDynamicEntry": true,
@@ -55,12 +55,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DtGC_4Xv.js",
+    "file": "CC3nVoJG.js",
     "name": "error-404",
     "src": "node_modules/nuxt/dist/app/components/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_CZdm6RQe.js",
+      "_urr0jYct.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "css": [
@@ -78,7 +78,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CyDQFNL8.js",
+    "file": "BpRchOss.js",
     "name": "error-500",
     "src": "node_modules/nuxt/dist/app/components/error-500.vue",
     "isDynamicEntry": true,
@@ -100,7 +100,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DJ1w4pEi.js",
+    "file": "By_Pp3qr.js",
     "name": "entry",
     "src": "node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
@@ -126,20 +126,20 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "snTXIh6U.js",
+    "file": "BjvGQI0c.js",
     "name": "index",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_CZdm6RQe.js"
+      "_urr0jYct.js"
     ],
     "css": [
-      "index.DuDoxFhV.css"
+      "index.3zkX-Zd1.css"
     ]
   },
-  "index.DuDoxFhV.css": {
-    "file": "index.DuDoxFhV.css",
+  "index.3zkX-Zd1.css": {
+    "file": "index.3zkX-Zd1.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
@@ -149,7 +149,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "SnDKTBTj.js",
+    "file": "CR35BFSe.js",
     "name": "lista",
     "src": "pages/lista.vue",
     "isDynamicEntry": true,
@@ -162,7 +162,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "HDF7W0Lh.js",
+    "file": "DDiXPdGL.js",
     "name": "login",
     "src": "pages/login.vue",
     "isDynamicEntry": true,
@@ -175,7 +175,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CwMvn5gP.js",
+    "file": "DMn_za_x.js",
     "name": "_id_",
     "src": "pages/videos/[id].vue",
     "isDynamicEntry": true,
@@ -188,7 +188,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BF6RXgZv.js",
+    "file": "Cw82XujN.js",
     "name": "favoritos",
     "src": "pages/videos/favoritos.vue",
     "isDynamicEntry": true,
@@ -201,7 +201,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Dn2q39pY.js",
+    "file": "CSt5mWc3.js",
     "name": "index",
     "src": "pages/videos/index.vue",
     "isDynamicEntry": true,
